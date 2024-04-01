@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Slider</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="brand">Wonders</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Explore</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="loader-container">
+            <div class="loader"></div>
+        </div>
+        <video class="video-slide active" src="./media/Legends.mp4" autoplay muted loop lazy></video>
+        <video class="video-slide" src="./media/Legends1.mp4" autoplay muted loop lazy></video>
+        <video class="video-slide" src="./media/MK.mp4" autoplay muted loop lazy></video>
+
+        <div class="content active">
+            <h1>Wonderful. <br><span>World</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae accusamus nisi voluptates dicta ratione earum magni, exercitationem qui quidem?</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="content">
+            <h1>Extraordinary. <br><span>World</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae accusamus nisi voluptates dicta ratione earum magni, exercitationem qui quidem?</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="content">
+            <h1>Amazing. <br><span>World</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae accusamus nisi voluptates dicta ratione earum magni, exercitationem qui quidem?</p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+
+        <div class="slider-navigation">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+    </section>
+
+    <footer>
+        <small>Develop By JDMollineda 2024 &copy</small>
+    </footer>
+</body>
+</html>
